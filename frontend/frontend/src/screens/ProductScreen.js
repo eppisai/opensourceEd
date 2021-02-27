@@ -238,7 +238,7 @@ const ProductScreen = ({ history, match }) => {
                 </Button>
                 <Collapse in={open1}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>1. Course Introduction and Overview</span>
                     </a>
@@ -246,7 +246,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open1}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>2. Setting the stage with modern javascript features</span>
                     </a>
@@ -254,7 +254,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open1}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>3. React.Fragment</span>
                     </a>
@@ -262,7 +262,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open1}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>4. Default Props</span>
                     </a>
@@ -270,7 +270,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open1}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>5. Prop Types</span>
                     </a>
@@ -278,7 +278,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open1}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>6. defaultProps and propTypes Practice</span>
                     </a>
@@ -286,7 +286,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open1}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>7. Feedback - Intro</span>
                     </a>
@@ -305,7 +305,7 @@ const ProductScreen = ({ history, match }) => {
                 </Button>
                 <Collapse in={open2}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>1. Course Introduction and Overview</span>
                     </a>
@@ -313,7 +313,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open2}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>2. Setting the stage with modern javascript features</span>
                     </a>
@@ -321,7 +321,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open2}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>3. React.Fragment</span>
                     </a>
@@ -329,7 +329,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open2}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>4. Default Props</span>
                     </a>
@@ -337,7 +337,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open2}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>5. Prop Types</span>
                     </a>
@@ -345,7 +345,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open2}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>6. defaultProps and propTypes Practice</span>
                     </a>
@@ -353,7 +353,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open2}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>7. Feedback - Intro</span>
                     </a>
@@ -371,7 +371,7 @@ const ProductScreen = ({ history, match }) => {
                 </Button>
                 <Collapse in={open3}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">1. Course Introduction and Overview</span>
                     </a>
@@ -379,7 +379,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open3}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3" style={{color: "white"}}>2. Setting the stage with modern javascript features</span>
                     </a>
@@ -387,7 +387,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open3}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">3. React.Fragment</span>
                     </a>
@@ -395,7 +395,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open3}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">4. Default Props</span>
                     </a>
@@ -403,7 +403,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open3}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">5. Prop Types</span>
                     </a>
@@ -411,7 +411,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open3}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">6. defaultProps and propTypes Practice</span>
                     </a>
@@ -419,7 +419,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open3}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">7. Feedback - Intro</span>
                     </a>
@@ -437,7 +437,7 @@ const ProductScreen = ({ history, match }) => {
                 </Button>
                 <Collapse in={open4}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">1. Course Introduction and Overview</span>
                     </a>
@@ -445,7 +445,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open4}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">2. Setting the stage with modern javascript features</span>
                     </a>
@@ -453,7 +453,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open4}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">3. React.Fragment</span>
                     </a>
@@ -461,7 +461,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open4}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">4. Default Props</span>
                     </a>
@@ -469,7 +469,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open4}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">5. Prop Types</span>
                     </a>
@@ -477,7 +477,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open4}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">6. defaultProps and propTypes Practice</span>
                     </a>
@@ -485,7 +485,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open4}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">7. Feedback - Intro</span>
                     </a>
@@ -503,7 +503,7 @@ const ProductScreen = ({ history, match }) => {
                 </Button>
                 <Collapse in={open5}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">1. Course Introduction and Overview</span>
                     </a>
@@ -511,7 +511,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open5}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">2. Setting the stage with modern javascript features</span>
                     </a>
@@ -519,7 +519,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open5}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">3. React.Fragment</span>
                     </a>
@@ -527,7 +527,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open5}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">4. Default Props</span>
                     </a>
@@ -535,7 +535,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open5}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">5. Prop Types</span>
                     </a>
@@ -543,7 +543,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open5}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">6. defaultProps and propTypes Practice</span>
                     </a>
@@ -551,7 +551,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open5}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">7. Feedback - Intro</span>
                     </a>
@@ -569,7 +569,7 @@ const ProductScreen = ({ history, match }) => {
                 </Button>
                 <Collapse in={open6}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">1. Course Introduction and Overview</span>
                     </a>
@@ -577,7 +577,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open6}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">2. Setting the stage with modern javascript features</span>
                     </a>
@@ -585,7 +585,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open6}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">3. React.Fragment</span>
                     </a>
@@ -593,7 +593,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open6}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">4. Default Props</span>
                     </a>
@@ -601,7 +601,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open6}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">5. Prop Types</span>
                     </a>
@@ -609,7 +609,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open6}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">6. defaultProps and propTypes Practice</span>
                     </a>
@@ -617,7 +617,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open6}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">7. Feedback - Intro</span>
                     </a>
@@ -635,7 +635,7 @@ const ProductScreen = ({ history, match }) => {
                 </Button>
                 <Collapse in={open7}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">1. Course Introduction and Overview</span>
                     </a>
@@ -643,7 +643,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open7}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">2. Setting the stage with modern javascript features</span>
                     </a>
@@ -651,7 +651,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open7}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">3. React.Fragment</span>
                     </a>
@@ -659,7 +659,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open7}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">4. Default Props</span>
                     </a>
@@ -667,7 +667,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open7}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">5. Prop Types</span>
                     </a>
@@ -675,7 +675,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open7}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">6. defaultProps and propTypes Practice</span>
                     </a>
@@ -683,7 +683,7 @@ const ProductScreen = ({ history, match }) => {
                 </Collapse>
                 <Collapse in={open7}>
                   <div className="col-12 mt-1" id="example-collapse-text">
-                    <a href = "http://localhost:3001/user/">
+                    <a href = "https://one111111.herokuapp.com//user/">
                     <img className="collapse-play-icon" src={play_icon} />
                     <span className="ml-3">7. Feedback - Intro</span>
                     </a>
