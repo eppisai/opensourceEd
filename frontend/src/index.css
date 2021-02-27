@@ -88,10 +88,11 @@ h2 {
   flex: 1;
   background-color: black;
   transition: 1s;
-  background-image: url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+  background-image: url(https://images.unsplash.com/photo-1522661067900-ab829854a57f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=nikhita-s-NsPDiPFTp4c-unsplash.jpg&w=1920);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 50px;
 }
 
 .header > h2 {
@@ -206,6 +207,9 @@ h2 {
 }
 
 .navb{
+  background-color: #230c05 !important;
+}
+body{
   background-color: #230c05 !important;
 }
 h1{

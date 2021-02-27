@@ -356,4 +356,3 @@ $(function() {
     //     console.log(reader)
     //     console.log(FileReader)
     // }
-
