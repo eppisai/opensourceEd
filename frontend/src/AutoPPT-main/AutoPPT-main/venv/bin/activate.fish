@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/name/Desktop/hacked_Team_Celestials/uplift/frontend/src/AutoPPT-main/AutoPPT-main/venv"
+set -gx VIRTUAL_ENV "/home/name/Desktop/hacked_Team_Celestials/Open Edu/frontend/src/AutoPPT-main/AutoPPT-main/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

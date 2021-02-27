@@ -1,4 +1,4 @@
-#!/home/name/Desktop/hacked_Team_Celestials/uplift/frontend/src/AutoPPT-main/AutoPPT-main/venv/bin/python3
+#!/home/name/Desktop/hacked_Team_Celestials/Open Edu/frontend/src/AutoPPT-main/AutoPPT-main/venv/bin/python3
 
 ##############################################################################
 #

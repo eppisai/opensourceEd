@@ -32,13 +32,13 @@ const LoginScreen = ({ location, history }) => {
 
   return (
     <motion.div className="login" initial={{opacity:0,y:90}} animate={{opacity:1,y:0}} transition={{delay:0.2, duration:0.6,type: "spring", damping: 36, stiffness: 200,}}>
-    <div className="container">
+    <div className="container_log">
     {error && <Message variant='danger'>{error}</Message>}
       {loading && <Loader />}
   <div className="left">
     <div className="header">
-      <h2 className="animation a1">Welcome Back</h2>
-      <h4 className="animation a2">Log in to your account using email and password</h4>
+      <h2 className="animation a1" >Welcome Back</h2>
+      <h4 className="animation a2" style={{color: "white"}}>Log in to your account using email and password</h4>
     </div>
     <form className="form" onSubmit={submitHandler}>
       <input type="email" className="form-field animation a3" placeholder="Email Address" value={email}

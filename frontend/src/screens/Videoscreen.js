@@ -14,7 +14,7 @@ const VideoScreen = ({ match, location, history }) => {
         </div>
         <div className="col-6 brief">
           <div className=" text-center d-flex justified-content-center">
-            <h4>
+            <h4 style={{color: "white"}}>
               Lets walk through the smart and intractive video generation.
               where learner get a in-person experience and learn the concept more. <br/>
               <br/>
@@ -27,7 +27,7 @@ const VideoScreen = ({ match, location, history }) => {
         <div className="container">
         <div className="row">
           <div className="col-12 text-center m-5">
-            <h1>Lets walk through process</h1>
+            <h1 style={{color: "white"}}>Lets walk through process</h1>
           </div>
         </div>
         </div>
@@ -43,21 +43,21 @@ const VideoScreen = ({ match, location, history }) => {
               <section className="br"></section>
             </div>
             <section className="info no-border">
-              <h2>Record</h2>
-              <span>This includes recording your idea and way to teach on our platform to avoid any hustel. by using our platform you will be able to provide good content in lesser data in better quality.</span>
+              <h2 style={{color: "white"}}>Record</h2>
+              <span style={{color: "white"}}>This includes recording your idea and way to teach on our platform to avoid any hustel. by using our platform you will be able to provide good content in lesser data in better quality.</span>
             </section>
             <section></section>
             
             <section></section>
             <section className="info">
-              <h2 className="mt-3">  check</h2>
-              <span className="mt-3">Cross check the video and content provided for learning to avoid conflits later.</span>
+              <h2 style={{color: "white"}} className="mt-3">  check</h2>
+              <span style={{color: "white"}} className="mt-3">Cross check the video and content provided for learning to avoid conflits later.</span>
             </section>
             <div className="circle-container">
               <section className="tl"></section>
               <section className="tr"></section>
               <div className="flex">
-                <span className="circle">Step 2</span>
+                <span style={{color: "white"}} className="circle">Step 2</span>
               </div>
               <section className="bl"></section>
               <section className="br"></section>
@@ -68,27 +68,27 @@ const VideoScreen = ({ match, location, history }) => {
               <section className="tl"></section>
               <section className="tr"></section>
               <div className="flex">
-                <span className="circle">Step 3</span>
+                <span style={{color: "white"}} className="circle">Step 3</span>
               </div>
-              <section className="bl"></section>
-              <section className="br"></section>
+              <section style={{color: "white"}} className="bl"></section>
+              <section style={{color: "white"}} className="br"></section>
             </div>
             <section className="info">
-            <h2>Making of certificate</h2>
-              <span>Providing an certificate with blockchain technology we assure its validity and authenticity. It reduce the forging or faking of certificate.</span>
+            <h2 style={{color: "white"}} >Making of certificate</h2>
+              <span style={{color: "white"}} >Providing an certificate with blockchain technology we assure its validity and authenticity. It reduce the forging or faking of certificate.</span>
             </section>
             <section></section>
             
             <section></section>
             <section className="info">
-              <h2>Complete</h2>
-              <span>Here, we complete a perfect course with verfication and human experience. </span>
+              <h2 style={{color: "white"}} >Complete</h2>
+              <span style={{color: "white"}} >Here, we complete a perfect course with verfication and human experience. </span>
             </section>
             <div className="circle-container">
               <section className="tl"></section>
               <section className="tr"></section>
               <div className="flex">
-                <span className="circle">Step 4</span>
+                <span style={{color: "white"}} className="circle">Step 4</span>
               </div>
               <section className="bl no-border"></section>
               <section className="br no-border"></section>
@@ -98,7 +98,7 @@ const VideoScreen = ({ match, location, history }) => {
       <div className="container">
         <div className="row">
           <div className="col-12 d-flex text-center course">
-          <a href="http://localhost:3001/" className="click-button">
+          <a href="http://localhost:3001/" className="click-button" style={{color: "white"}}>
           <span></span>
           <span></span>
           <span></span>

@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/name/Desktop/hacked_Team_Celestials/uplift/frontend/src/AutoPPT-main/AutoPPT-main/venv"
+VIRTUAL_ENV="/home/name/Desktop/hacked_Team_Celestials/Open Edu/frontend/src/AutoPPT-main/AutoPPT-main/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

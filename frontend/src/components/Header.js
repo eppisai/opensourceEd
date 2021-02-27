@@ -19,10 +19,10 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar bg='dark' className = "navb" variant='dark' expand='lg' collapseOnSelect>
         <div className="container-fluid navdiv">
           <LinkContainer to='/'>
-            <Navbar.Brand>Uplift</Navbar.Brand>
+            <Navbar.Brand>Open Edu</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
