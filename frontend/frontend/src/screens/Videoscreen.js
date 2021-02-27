@@ -93,7 +93,7 @@ const VideoScreen = ({ match, location, history }) => {
       <div className="container">
         <div className="row">
           <div className="col-12 d-flex text-center course">
-          <a href="http://localhost:3001/" className="click-button" style={{color: "white"}}>
+          <a href="https://one111111.herokuapp.com//" className="click-button" style={{color: "white"}}>
           <span></span>
           <span></span>
           <span></span>
