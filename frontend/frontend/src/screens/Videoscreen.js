@@ -16,7 +16,7 @@ const VideoScreen = ({ match, location, history }) => {
   <span>Next.</span>
 </section>
 <div className="link-container">
-  <a target="_blank" href="https://www.silocreativo.com/en/creative-examples-404-error-css/" class="more-link">Click Here To make A tutorial!</a>
+  <a target="_blank" href="https://one111111.herokuapp.com/" class="more-link">Click Here To make A tutorial!</a>
 </div>
       <div className="steps">
         <div className="container">
@@ -93,7 +93,7 @@ const VideoScreen = ({ match, location, history }) => {
       <div className="container">
         <div className="row">
           <div className="col-12 d-flex text-center course">
-          <a href="https://one111111.herokuapp.com//" className="click-button" style={{color: "white"}}>
+          <a href="https://one111111.herokuapp.com/" className="click-button" style={{color: "white"}}>
           <span></span>
           <span></span>
           <span></span>

@@ -8,7 +8,7 @@ export default function ConvertToPPT() {
                 <Col className="d-flex align-items-center mt-5 justify-content-around">
                     <Card style={{width:"max-content"}}>
                         <Card.Body>
-                            <Form  method="get" action="/flask/">
+                            <Form  method="get" action="/Conference/">
                                 <Form.Group controlId="formBasicEmail">
                                     <Form.Label>Topic</Form.Label>
                                     <Form.Control type="text" name="topic"/>

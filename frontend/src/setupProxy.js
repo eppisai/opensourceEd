@@ -9,7 +9,7 @@ module.exports = function(app) {
     );
 
     app.use(
-        `/flask/*`,
+        `/Conference/*`,
         createProxyMiddleware({
             target: 'http://localhost:5000'
          

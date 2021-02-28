@@ -28,7 +28,7 @@ const Header = () => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Route render={({ history }) => <SearchBox  history={history} />} />
             <Nav className='ml-auto'>
-              <LinkContainer className="mx-2" to='/flask'>
+              <LinkContainer className="mx-2" to='/Conference'>
                     <Nav.Link><i className='fas fa-lightbulb'></i> Smart Content Creation</Nav.Link>
               </LinkContainer>
               <LinkContainer className="mx-2" to='/video'>

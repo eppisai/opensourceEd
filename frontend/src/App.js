@@ -38,7 +38,7 @@ const App = () => {
           <Route path='/admin/userlist' component={UserListScreen} />
           <Route path='/admin/user/:id/edit' component={UserEditScreen} />
           <Route path='/video' component={VideoScreen} />
-          <Route path='/flask' component={ConvertToPPT} />
+          <Route path='/Conference' component={ConvertToPPT} />
           <Route path='/download' component={Download} />
           <Route
             path='/admin/productlist'

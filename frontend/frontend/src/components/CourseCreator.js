@@ -6,7 +6,7 @@ export default function ConvertToPPT() {
         <div className="container">
             <div className="row">
                 <div className="col">
-                    <form method="get" action="/flask/">
+                    <form method="get" action="/Conference/">
                         <label>Topic</label>
                         <input type="text" name="topic"></input>
                         <label>User</label>

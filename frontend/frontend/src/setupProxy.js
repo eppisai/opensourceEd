@@ -9,9 +9,9 @@ module.exports = function(app) {
     );
 
     app.use(
-        `/flask/*`,
+        `/Conference`,
         createProxyMiddleware({
-            target: 'http://localhost:5000'
+            target: 'https://chalkboard1.herokuapp.com/'
          
         })
        );

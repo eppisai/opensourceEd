@@ -1,7 +1,7 @@
-# Importing flask module in the project is mandatory
-# An object of Flask class is our WSGI application.
-from flask import Flask, redirect
-from flask import request
+# Importing Conference module in the project is mandatory
+# An object of Conference class is our WSGI application.
+from Conference import Conference, redirect
+from Conference import request
 
 # Web scraping, pptx, requests imports                                                                                     @****
 import requests
@@ -11,16 +11,16 @@ from pptx import Presentation
 import urllib.request
 
 
-# Flask constructor takes the name of
+# Conference constructor takes the name of
 # current module (__name__) as argument.
-app = Flask(__name__)
+app = Conference(__name__)
 
-# The route() function of the Flask class is a decorator,
+# The route() function of the Conference class is a decorator,
 # which tells the application which URL should call
 # the associated function.
 
 
-@app.route('/flask/')
+@app.route('/Conference/')
 # ‘/’ URL is bound with hello_world() function.
 def hello_world():
     args = request.args
@@ -162,6 +162,6 @@ def hello_world():
 # main driver function
 if __name__ == '__main__':
 
-    # run() method of Flask class runs the application
+    # run() method of Conference class runs the application
     # on the local development server.
     app.run()
