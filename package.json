@@ -1,5 +1,5 @@
 {
-  "name": "uplift",
+  "name": "openedu",
   "version": "1.0.0",
   "description": "New way of learning",
   "main": "server.js",
@@ -14,7 +14,7 @@
     "data:destroy": "node backend/seeder -d",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "Team Celestials",
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
