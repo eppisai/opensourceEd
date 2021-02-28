@@ -15,9 +15,12 @@
  <br>
 Need info About the Code? Docs will be updated soon, once project is completed.
  | or Create an issue
- | Check our project Board
- | [Ask us on Discord][discord]
- 
+
+
+<h3> Contact Us, In case of error or having problem setting up the project </h3>
+<li><a href = "https://www.facebook.com/thealpha.guy.1/"> Aman </a></li>
+<li><a href = "https://www.facebook.com/thealpha.guy.1/"> Shantanu</a></li>
+ <br>
  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
