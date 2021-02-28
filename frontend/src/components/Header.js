@@ -29,14 +29,14 @@ const Header = () => {
             <Route render={({ history }) => <SearchBox  history={history} />} />
             <Nav className='ml-auto'>
               <LinkContainer className="mx-2" to='/Conference'>
-                    <Nav.Link><i className='fas fa-lightbulb'></i> Smart Content Creation</Nav.Link>
+                    <Nav.Link><i className='fas fa-lightbulb'></i> Doubt Solving</Nav.Link>
               </LinkContainer>
               <LinkContainer className="mx-2" to='/video'>
-                    <Nav.Link><i className='fas fa-video'></i> Video recording</Nav.Link>
+                    <Nav.Link><i className='fas fa-video'></i> Tutorial Recording</Nav.Link>
               </LinkContainer>
               <LinkContainer className="mx-2" to='/cart'>
                 <Nav.Link>
-                  <i className='fas fa-shopping-cart'></i> Cart
+                  <i className='fas fa fa-square-o'></i> Tutorials
                 </Nav.Link>
               </LinkContainer>
               {userInfo ? (

@@ -19,6 +19,7 @@ import OrderListScreen from './screens/OrderListScreen'
 import VideoScreen from './screens/Videoscreen'
 import ConvertToPPT from "./components/ConvertToPPT"
 import Download from "./components/Download"
+import LandingScreen from "./screens/LandingScreen"
 
 const App = () => {
   return (
@@ -34,7 +35,7 @@ const App = () => {
           <Route path='/register' component={RegisterScreen} />
           <Route path='/profile' component={ProfileScreen} />
           <Route path='/product/:id' component={ProductScreen} />
-          <Route path='/cart/:id?' component={CartScreen} />
+          <Route path='/cart/:id?' component={HomeScreen} />
           <Route path='/admin/userlist' component={UserListScreen} />
           <Route path='/admin/user/:id/edit' component={UserEditScreen} />
           <Route path='/video' component={VideoScreen} />
@@ -59,7 +60,7 @@ const App = () => {
             component={HomeScreen}
             exact
           />
-          <Route path='/' component={HomeScreen} exact />
+          <Route path='/' component={LandingScreen} exact />
         </>
       </main>
     </Router>

@@ -1,35 +1,10 @@
 import React from 'react'
-import {Card,Form,Row,Col,Container,Button} from 'react-bootstrap'
+import Iframe from 'react-iframe'
+
 
 export default function ConvertToPPT() {
-    return (
-        <Container fluid>
-            <Row>
-                <Col className="d-flex align-items-center mt-5 justify-content-around">
-                    <Card style={{width:"max-content"}}>
-                        <Card.Body>
-                            <Form  method="get" action="/Conference/">
-                                <Form.Group controlId="formBasicEmail">
-                                    <Form.Label>Topic</Form.Label>
-                                    <Form.Control type="text" name="topic"/>
-                                    <Form.Text className="text-muted">
-                                        Please fill your topic above.
-                                    </Form.Text>
-                                </Form.Group>
-
-                                <Form.Group controlId="formBasicPassword">
-                                    <Form.Label>User</Form.Label>
-                                    <Form.Control type="text" name="user" />
-                                </Form.Group>
-                                <Button variant="primary" type="submit">
-                                    Generate
-                                </Button>
-                            </Form>
-                        </Card.Body>
-                    </Card>
-                </Col>            
-            </Row>
-            
-        </Container>
-    )
+        return <Iframe url="https://chalkboard1.herokuapp.com/"
+        id="videop"
+        allow="camera https://chalkboard1.herokuapp.com/; microphone https://chalkboard1.herokuapp.com/"
+        />
 }
