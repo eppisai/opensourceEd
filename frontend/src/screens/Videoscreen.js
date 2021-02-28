@@ -13,7 +13,7 @@ const VideoScreen = ({ match, location, history }) => {
 <section className="error-container">
   <span>Record.</span>
   <span><span className="screen-reader-text">Play.</span></span>
-  <span>Next.</span>
+  <span>Play.</span>
 </section>
 <div className="link-container">
   <a target="_blank" href="https://one111111.herokuapp.com/" class="more-link">Click Here To make A tutorial!</a>

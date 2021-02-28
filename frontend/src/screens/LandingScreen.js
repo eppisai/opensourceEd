@@ -12,28 +12,28 @@ const LandingScreen = () => {
   <h2 className="c-section__title"><span>Open Edu</span></h2>
   <ul className="c-services">
     <li className="c-services__item">
-      <h3>Feature 1</h3>
-      <p>Shantanu likh dena</p>
+    <h3>Are you a Instructor?</h3>
+    <p>We know how much effort it takes to make a tutorial online. We promise you, after using us tutorial making process will be very smooth and very less time consuming. We don't and will not take any money from your hardwork!</p>
     </li>
     <li className="c-services__item">
-      <h3>Feature 2</h3>
-      <p>Shantanu likh dena</p>
+      <h3>No Doubts, We Promise!</h3>
+      <p>Even after watching video you have doubt you can ask the instructor in a Live ScreenCast!</p>
     </li>
     <li className="c-services__item">
-      <h3>High Light2</h3>
-      <p>We are Front End masters with a deep focus on HTML, CSS. The result of our work is a responsive, accessible, and performant websites. Either you have the design ready and want us to code it, or you want us to do both design and code, we&rsquo;re happy to do so.</p>
+      <h3>Your Skills Matter, not the Platform</h3>
+      <p>We Provide you with BlockChain Powered Certification, giving you security that it can't be forged hence increasing value of your Skills.</p>
     </li>
     <li className="c-services__item">
-      <h3>yeh bhi likhna h</h3>
-      <p>If you don&rsquo;t know what kind of service to request from us, don&rsquo;t worry. We can help and see what fits your business and your budget.</p>
+      <h3>Your Learning Matters, not your Internet Speed</h3>
+      <p>Our Platform Uses approch that not makes videos Interactive but also drastically reduces size. So, Providing you with High Quality Video in a very low bandwidth.</p>
     </li>
     <li className="c-services__item">
-      <h3>Mobile Apps Design</h3>
-      <p>To reach more customers and the goals of your business, a mobile application is necessary these days. We will work on the app design from scratch to final tested prototype.</p>
+      <h3>Everyone hates Middle Mens!</h3>
+      <p>We are Open Source Platform, that is even if you are a teacher or a student, you will decide how you want to use us! w don't keep or sell your data. We will charge you of maintenance and database. </p>
     </li>
     <li className="c-services__item">
-      <h3>UX Research</h3>
-      <p>It&rsquo;s important to research deeply for the product you want to build. We help in that by defining the user audience, working on user stories, competitive analysis and much more. </p>
+      <h3>Interactive ClassRoom in Video!</h3>
+      <p>Providing Students with Tutorials, that allow Students to make Changes in Instructors screen, and then Continue watching the tutorial</p>
     </li>
   </ul>
 </section>
