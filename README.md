@@ -5,7 +5,7 @@
 
 <ui>
   <li> git clone https://github.com/eppisai/opensourceEd.git </li>
-  <li>cd opensourceED</li>
+  <li>cd opensourceEd</li>
   <li> npm i </li>
   <li>cd frontend </li>
   <li>npm i </li>
