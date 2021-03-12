@@ -12,6 +12,8 @@ function App() {
   const [Recording,setRecording] = useState({ events: [], startTime: -1 }); 
   const [Audio,setAudio] = useState({ isRecording: false,blobURL: '',isBlocked: false});
   const [BlobUrl,setBlobUrl] = useState('');
+  const [IsRecording,setIsRecording] = useState(false);
+  const [IsBlocked,setIsBlocked] = useState(false);
 
   // Record each type of event
   const handlers = [
@@ -100,13 +102,15 @@ function App() {
         .then(() => {
           var A = Audio;
           A.isRecording = true;
+          setIsRecording(true);
           setAudio(A);
         }).catch((e) => console.error(e));
     }
   };
   function stop(){
     var A = Audio;
-    A.isRecording = true;
+    A.isRecording = false;
+    setIsRecording(false);
     setAudio(A);
     Mp3Recorder
       .stop()
@@ -115,6 +119,7 @@ function App() {
         const blob = URL.createObjectURL(babu)
         var A = Audio;
         A.isRecording = false;
+        setIsRecording(false);
         A.blobURL = blob;
         setBlobUrl(blob);
         setAudio(A);
@@ -141,11 +146,13 @@ function App() {
         console.log('Permission Granted');
         var A = Audio;
         A.isBlocked = false;
+        setIsBlocked(false);
         setAudio(A);
       },
       () => {
         var A = Audio;
         A.isBlocked = true;
+        setIsBlocked(true);
         setAudio(A)
       },
     );
@@ -185,8 +192,8 @@ function App() {
       <button onClick={handleClick} className = "button" id="record"><img id="record_img" src="https://img.icons8.com/dusk/64/000000/record.png"/></button>
       <button onClick={handleStop} className = "button" id="record">Stop Recording</button>
       
-<button onClick={start} disabled={Audio.isRecording}>Record Audio</button>
-<button onClick={stop}>Stop Audio</button>
+<button onClick={start} disabled={IsRecording}>Record Audio</button>
+<button onClick={stop} disabled={!IsRecording}>Stop Audio</button>
 {console.log(Audio)};
 <audio src={BlobUrl} controls="controls" />
     </>
