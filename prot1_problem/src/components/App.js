@@ -10,7 +10,9 @@ function App() {
   const [js, setJs] = useLocalStorage('js', '')
   const [srcDoc, setSrcDoc] = useState('')
   const [Recording,setRecording] = useState({ events: [], startTime: -1 }); 
-  var [Audio,setAudio] = useState({ isRecording: false,blobURL: '',isBlocked: false});
+  const [Audio,setAudio] = useState({ isRecording: false,blobURL: '',isBlocked: false});
+  const [BlobUrl,setBlobUrl] = useState('');
+
   // Record each type of event
   const handlers = [
       {
@@ -114,6 +116,7 @@ function App() {
         var A = Audio;
         A.isRecording = false;
         A.blobURL = blob;
+        setBlobUrl(blob);
         setAudio(A);
       }).catch((e) => console.log(e));
       console.log("working:", Audio.blobURL);
@@ -185,7 +188,7 @@ function App() {
 <button onClick={start} disabled={Audio.isRecording}>Record Audio</button>
 <button onClick={stop}>Stop Audio</button>
 {console.log(Audio)};
-<audio src={Audio.blobURL} controls="controls" />
+<audio src={BlobUrl} controls="controls" />
     </>
   )
 }
