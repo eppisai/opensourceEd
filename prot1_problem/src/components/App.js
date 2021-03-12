@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Editor from './Editor'
 import useLocalStorage from '../hooks/useLocalStorage'
 import MicRecorder from 'mic-recorder-to-mp3';
+import VideoScreen from './VideoScreen';
 
 function App() {
   const Mp3Recorder = new MicRecorder({ bitRate: 128 });
@@ -189,6 +190,7 @@ function App() {
 <button onClick={stop} disabled={Audio.isRecording}>Stop Audio</button>
 {console.log(Audio)};
 <audio src={BlobUrl} controls="controls" />
+<VideoScreen rec = {Recording}/>
     </>
   )
 }
