@@ -10,7 +10,7 @@ function App() {
   const [js, setJs] = useLocalStorage('js', '')
   const [srcDoc, setSrcDoc] = useState('')
   const [Recording,setRecording] = useState({ events: [], startTime: -1 }); 
-  const [Audio,setAudio] = useState({ isRecording: false,blobURL: '',isBlocked: false,})
+  var [Audio,setAudio] = useState({ isRecording: false,blobURL: '',isBlocked: false});
   // Record each type of event
   const handlers = [
       {
@@ -117,6 +117,7 @@ function App() {
         setAudio(A);
       }).catch((e) => console.log(e));
       console.log("working:", Audio.blobURL);
+      console.log(Audio)
   };  
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -128,7 +129,6 @@ function App() {
         </html>
       `)
     }, 250)
-
     return () => clearTimeout(timeout)
   }, [html, css, js])
 
@@ -146,52 +146,7 @@ function App() {
         setAudio(A)
       },
     );
-    // return () => {
-    //   cleanup
-    // }
-  }, [Audio])
-
-  useEffect(() => {
-   
-    const handlers = [
-      {
-        eventName: "mousemove",
-        handler: function handleMouseMove(e) {
-          Recording.events.push({
-            type: "mousemove",
-            x: e.pageX,
-            y: e.pageY,
-            time: Date.now()
-          });
-        }
-      },
-      {
-        eventName: "click",
-        handler: function handleClick(e) {
-          Recording.events.push({
-            type: "click",
-            target: e.target.id,
-            x: e.pageX,
-            y: e.pageY,
-            time: Date.now()
-          });
-        }
-      },
-      {
-        eventName: "keypress",
-        handler: function handleKeyPress(e) {
-          Recording.events.push({
-            type: "keypress",
-            target: e.target.id,
-            value: e.target.value,
-            keyCode: e.keyCode,
-            time: Date.now()
-          });
-        }
-      }
-    ];
-  })
-
+  },[Audio.isRecording])
   return (
     <>
       <div className="pane top-pane">
@@ -228,8 +183,8 @@ function App() {
       <button onClick={handleStop} className = "button" id="record">Stop Recording</button>
       
 <button onClick={start} disabled={Audio.isRecording}>Record Audio</button>
-<button onClick={stop}  >Stop Audio</button>
-{console.log(Audio.blobURL)}
+<button onClick={stop}>Stop Audio</button>
+{console.log(Audio)};
 <audio src={Audio.blobURL} controls="controls" />
     </>
   )
