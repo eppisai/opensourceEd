@@ -19,7 +19,8 @@ Need info About the Code? Docs will be updated soon, once project is completed.
 
 <h3> Contact Us, In case of error or having problem setting up the project </h3>
 <li><a href = "https://www.facebook.com/thealpha.guy.1/"> Aman </a></li>
-<li><a href = "https://www.facebook.com/thealpha.guy.1/"> Shantanu</a></li>
+<li><a href = "https://www.facebook.com/Palak.578"> Shantanu</a></li>
+<li><a href = "https://www.facebook.com/shantanu.shukla.71404/"> Palak</a></li>
  <br>
  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
