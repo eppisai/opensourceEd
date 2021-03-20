@@ -176,7 +176,7 @@ body {
     font-weight: 300;
    
 }
-.click-button:hover{
+.landingpage .click-button:hover{
     background: #626b6bd7;
     color: #050801;
     box-shadow: 0 0 5px #626b6bd7,
@@ -186,14 +186,14 @@ body {
      -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
      text-decoration: none;;
 }
-.click-button:nth-child(1){
+.landingpage.click-button:nth-child(1){
     filter: hue-rotate(270deg);
 }
-.click-button span{
+.landingpage .click-button span{
     position: absolute;
     display: block;
 }
-.click-button span:nth-child(1){
+.landingpage .click-button span:nth-child(1){
     top: 0;
     left: 0;
     width: 100%;
@@ -209,7 +209,7 @@ body {
         left: 100%;
     }
 }
-.click-button span:nth-child(2){
+.landingpage .click-button span:nth-child(2){
     top: -100%;
     right: 0;
     width: 2px;

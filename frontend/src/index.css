@@ -738,13 +738,15 @@ a.more-link {
   background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjZmI2ZjNjIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHg9IjBweCIgeT0iMHB4Ij48dGl0bGU+NTI8L3RpdGxlPjxwYXRoIGQ9Ik04MS4zMDMyOSwzOC41MjkzOUExNC4wMTgsMTQuMDE4LDAsMSwwLDYxLjQ3NywxOC43MDY3MUw0Ny4wMDMxNSwzMy4xNzkxNGExNC4wMzAzNywxNC4wMzAzNywwLDAsMCwwLDE5LjgyMTcxLDQuODAxMTMsNC44MDExMywwLDAsMS02Ljc4OTc5LDYuNzg5ODcsMjMuNjQzMjcsMjMuNjQzMjcsMCwwLDEsMC0zMy40MDE0NUw1NC42ODcyMSwxMS45MTY4NEEyMy42MjAzLDIzLjYyMDMsMCwwLDEsODguMDkzMDgsNDUuMzE5MjdMODAuOTIzOCw1Mi40ODcxMWE0LjgwMTE0LDQuODAxMTQsMCwwLDEtNi43ODk4LTYuNzg5ODdaTTExLjkwNzQxLDg4LjA5MzlhMjMuNjUwNTMsMjMuNjUwNTMsMCwwLDAsMzMuNDA1ODYtLjAwMUw1OS43ODY2NCw3My42MjE0N2EyMy42MTU4MywyMy42MTU4MywwLDAsMCwwLTMzLjQwMTQ1LDQuODAxMTQsNC44MDExNCwwLDAsMC02Ljc4OTc5LDYuNzg5ODgsMTQuMDE1MzEsMTQuMDE1MzEsMCwwLDEsMCwxOS44MjI2OEwzOC41MjM0OCw4MS4zMDRBMTQuMDE4LDE0LjAxOCwwLDEsMSwxOC42OTcyLDYxLjQ4MTM1TDI1Ljg2Niw1NC4zMTM1YTQuODAxMTQsNC44MDExNCwwLDAsMC02Ljc4OTgtNi43ODk4N2wtNy4xNjg3OSw3LjE2Nzg1QTIzLjY0NDg5LDIzLjY0NDg5LDAsMCwwLDExLjkwNzQxLDg4LjA5MzlaIj48L3BhdGg+PC9zdmc+");
 }
 
-#videop{
+.landingpage #videop{
   width: 100vw;
   height: 100vh;
   position: relative;
 }
-
-.row {
+.row{
+  display: flex;
+}
+.landingpage .row {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -790,13 +792,13 @@ a.more-link {
   margin-left: -15%;
 }
 
-.line {
+.landingpage .line {
   padding: 10px 90px;
   position: relative;
   margin-top: 50px;
 }
 
-.line::before {
+.landingpage .line::before {
   position: absolute;
   width: 2.2px;
   height: 100%;
@@ -805,27 +807,27 @@ a.more-link {
   content: "";
 }
 
-.line .content {
+.landingpage .line .content {
   position: relative;
   padding-left: 30px;
   width: max-content;
 }
 
-.line .content + .content {
+.landingpage .line .content + .content {
   margin-top: 40px;
 }
 
-.line .content h1 {
+.landingpage .line .content h1 {
   font-size: 15px;
   margin-bottom: 5px;
   margin-top: 15px;
 }
 
-.line .content p {
+.landingpage .line .content p {
   font-size: 14px;
 }
 
-.line .content::before {
+.landingpage .line .content::before {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -835,20 +837,20 @@ a.more-link {
   border-radius: 50%;
 }
 
-.tech-stack{
+.landingpage .tech-stack{
   width: 100%;
   height: 100%;
   margin-top: 8%;
   background: linear-gradient(45%, transparent, rgba(28, 28, 240, 0.747)) !important;
 }
-.flex-2{
+.landingpage .flex-2{
   display: flex;
   justify-content: flex-end;
   width: 60%;
 }
 
 
-.card {
+.landingpage .card {
   box-shadow: 0rem .5rem 1rem rgba(0,0,0,.3);
   background-color: rgb(11, 31, 85);
 
@@ -858,26 +860,26 @@ a.more-link {
   color: white;
 }
 
-.card:hover {
+ .landingpage .card:hover {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 1rem 2rem rgba(0,0,0,0.2);
   transform: scale(1);
   cursor: pointer;
 }
-.content {
+.landingpage .content {
     padding: .5rem;
 }
 
-.small {
+.landingpage .small {
   max-width: 10rem;
 }
 
-.card--dark {
+.landingpage .card--dark {
   margin: 2em;
   background: rgb(11, 31, 85);
   color: white;
 }
 
-.cardLearning {
+.landingpage .cardLearning {
   margin: 2em;
   max-width: 300px;
   padding: 2em;
@@ -889,7 +891,7 @@ a.more-link {
     transform: scale(0.95);
   color: white;
 }
-.play-card{
+.landingpage .play-card{
   display: flex;
   justify-content: center;
   align-items: center;
