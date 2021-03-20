@@ -10,11 +10,6 @@ const VideoScreen = ({ match, location, history }) => {
     <div className="container_vid">
     <h1>Create your Interactive Tutorial Here!</h1>
 <p className="zoom-area"><b>Record</b> Your optimized screencast with audio on our platform!  </p>
-<section className="error-container">
-  <span>Record.</span>
-  <span><span className="screen-reader-text">Play.</span></span>
-  <span>Play.</span>
-</section>
 <div className="link-container">
   <a target="_blank" href="https://one111111.herokuapp.com/" class="more-link">Click Here To make A tutorial!</a>
 </div>
