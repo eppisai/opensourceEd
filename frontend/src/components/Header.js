@@ -22,11 +22,11 @@ const Header = () => {
       <Navbar bg='dark' className = "navb" variant='dark' expand='lg' collapseOnSelect>
         <div className="container-fluid navdiv">
           <LinkContainer to='/'>
-            <Navbar.Brand>Open Edu</Navbar.Brand>
+            <Navbar.Brand>Engage</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Route render={({ history }) => <SearchBox  history={history} />} />
+            
             <Nav className='ml-auto'>
               <LinkContainer className="mx-2" to='/Conference'>
                     <Nav.Link><i className='fas fa-lightbulb'></i> Doubt Solving</Nav.Link>

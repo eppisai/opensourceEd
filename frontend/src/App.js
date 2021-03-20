@@ -24,7 +24,7 @@ import LandingScreen from "./screens/LandingScreen"
 const App = () => {
   return (
     <Router>
-      <Header />
+      <Header/>
       <main className='py-3'>
         <>
           <Route path='/order/:id' component={OrderScreen} />
